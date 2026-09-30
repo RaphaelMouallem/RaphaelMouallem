@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 432" width="1000" height="432" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace">
+<defs><style>:root{--ink:#1f1d1a;--acc:#af4029;--acct:#af4029;--pr:#ede6d8;--ps:#e9e1d2;--psk:#ddd5c4}
+[fill="#e8e2d4"]{fill:var(--ink)}[stroke="#e8e2d4"]{stroke:var(--ink)}[stop-color="#e8e2d4"]{stop-color:var(--ink)}
+[fill="#c8553d"]{fill:var(--acc)}[stroke="#c8553d"]{stroke:var(--acc)}[stop-color="#c8553d"]{stop-color:var(--acc)}
+
+.lbl{font-size:13px;letter-spacing:3px;fill:var(--acct)}
+.dim{font-size:14px;letter-spacing:2px;fill:var(--ink);opacity:.72}
+.h{font-size:16px;font-weight:700;letter-spacing:1px;fill:var(--ink)}
+.s{font-size:15px;fill:var(--ink);opacity:.78}
+.box{fill:none;stroke:var(--ink);stroke-opacity:.35}
+.acc{fill:none;stroke:var(--acc)}
+.arrow{stroke:var(--acc);stroke-width:1.5;fill:none;marker-end:url(#ah)}
+</style>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#e8e2d4" opacity="0.07"/></pattern>
+<marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#c8553d"/></marker>
+</defs>
+<rect width="1000" height="432" fill="url(#dots)"/>
+
+
+<text x="50" y="44" class="lbl">FIG_004 / STACK</text><text x="950" y="44" class="dim" text-anchor="end">WHAT I BUILD WITH</text>
+<line x1="50" y1="60" x2="950" y2="60" stroke="#e8e2d4" stroke-opacity=".18"/>
+<text x="50" y="122" class="lbl" style="font-size:12px">LANGUAGES</text>
+<rect class="box" x="230" y="100" width="81" height="34"/><text x="270.5" y="122" class="h" text-anchor="middle" style="font-size:14px">Python</text>
+<rect class="box" x="325" y="100" width="62" height="34"/><text x="356.0" y="122" class="h" text-anchor="middle" style="font-size:14px">Java</text>
+<rect class="box" x="401" y="100" width="44" height="34"/><text x="423.0" y="122" class="h" text-anchor="middle" style="font-size:14px">C#</text>
+<rect class="box" x="459" y="100" width="53" height="34"/><text x="485.5" y="122" class="h" text-anchor="middle" style="font-size:14px">C++</text>
+<rect class="box" x="526" y="100" width="35" height="34"/><text x="543.5" y="122" class="h" text-anchor="middle" style="font-size:14px">C</text>
+<rect class="box" x="575" y="100" width="118" height="34"/><text x="634.0" y="122" class="h" text-anchor="middle" style="font-size:14px">JavaScript</text>
+<text x="50" y="174" class="lbl" style="font-size:12px">WEB &amp; MOBILE</text>
+<rect class="box" x="230" y="152" width="72" height="34"/><text x="266.0" y="174" class="h" text-anchor="middle" style="font-size:14px">React</text>
+<rect class="box" x="316" y="152" width="90" height="34"/><text x="361.0" y="174" class="h" text-anchor="middle" style="font-size:14px">Next.js</text>
+<rect class="box" x="420" y="152" width="90" height="34"/><text x="465.0" y="174" class="h" text-anchor="middle" style="font-size:14px">Angular</text>
+<rect class="box" x="524" y="152" width="90" height="34"/><text x="569.0" y="174" class="h" text-anchor="middle" style="font-size:14px">Node.js</text>
+<rect class="box" x="628" y="152" width="90" height="34"/><text x="673.0" y="174" class="h" text-anchor="middle" style="font-size:14px">Flutter</text>
+<text x="50" y="226" class="lbl" style="font-size:12px">BACKEND</text>
+<rect class="box" x="230" y="204" width="127" height="34"/><text x="293.5" y="226" class="h" text-anchor="middle" style="font-size:14px">Spring Boot</text>
+<rect class="box" x="371" y="204" width="90" height="34"/><text x="416.0" y="226" class="h" text-anchor="middle" style="font-size:14px">ASP.NET</text>
+<rect class="box" x="475" y="204" width="90" height="34"/><text x="520.0" y="226" class="h" text-anchor="middle" style="font-size:14px">FastAPI</text>
+<rect class="box" x="579" y="204" width="81" height="34"/><text x="619.5" y="226" class="h" text-anchor="middle" style="font-size:14px">Django</text>
+<rect class="box" x="674" y="204" width="72" height="34"/><text x="710.0" y="226" class="h" text-anchor="middle" style="font-size:14px">Flask</text>
+<rect class="box" x="760" y="204" width="90" height="34"/><text x="805.0" y="226" class="h" text-anchor="middle" style="font-size:14px">Express</text>
+<text x="50" y="278" class="lbl" style="font-size:12px">DATA</text>
+<rect class="box" x="230" y="256" width="118" height="34"/><text x="289.0" y="278" class="h" text-anchor="middle" style="font-size:14px">PostgreSQL</text>
+<rect class="box" x="362" y="256" width="81" height="34"/><text x="402.5" y="278" class="h" text-anchor="middle" style="font-size:14px">Qdrant</text>
+<rect class="box" x="457" y="256" width="90" height="34"/><text x="502.0" y="278" class="h" text-anchor="middle" style="font-size:14px">MongoDB</text>
+<rect class="box" x="561" y="256" width="72" height="34"/><text x="597.0" y="278" class="h" text-anchor="middle" style="font-size:14px">MySQL</text>
+<rect class="box" x="647" y="256" width="81" height="34"/><text x="687.5" y="278" class="h" text-anchor="middle" style="font-size:14px">SQLite</text>
+<text x="50" y="330" class="lbl" style="font-size:12px">AI &amp; DL</text>
+<rect class="box" x="230" y="308" width="90" height="34"/><text x="275.0" y="330" class="h" text-anchor="middle" style="font-size:14px">PyTorch</text>
+<rect class="box" x="334" y="308" width="118" height="34"/><text x="393.0" y="330" class="h" text-anchor="middle" style="font-size:14px">TensorFlow</text>
+<rect class="box" x="466" y="308" width="62" height="34"/><text x="497.0" y="330" class="h" text-anchor="middle" style="font-size:14px">LoRA</text>
+<rect class="box" x="542" y="308" width="145" height="34"/><text x="614.5" y="330" class="h" text-anchor="middle" style="font-size:14px">HF Tokenizers</text>
+<text x="50" y="382" class="lbl" style="font-size:12px">INFRA</text>
+<rect class="box" x="230" y="360" width="81" height="34"/><text x="270.5" y="382" class="h" text-anchor="middle" style="font-size:14px">Docker</text>
+<rect class="box" x="325" y="360" width="53" height="34"/><text x="351.5" y="382" class="h" text-anchor="middle" style="font-size:14px">AWS</text>
+<rect class="box" x="392" y="360" width="53" height="34"/><text x="418.5" y="382" class="h" text-anchor="middle" style="font-size:14px">Git</text>
+<rect class="box" x="459" y="360" width="145" height="34"/><text x="531.5" y="382" class="h" text-anchor="middle" style="font-size:14px">OpenTelemetry</text>
+<rect class="box" x="618" y="360" width="90" height="34"/><text x="663.0" y="382" class="h" text-anchor="middle" style="font-size:14px">Grafana</text>
+</svg>
